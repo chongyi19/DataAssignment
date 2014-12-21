@@ -1,0 +1,3 @@
+## This is a brief description about the logic behind the code run_analysis.R
+### This function is to download the UCI HAR Dataset if not found in the current working directory, unzip the file and read in the UCI HAR Dataset, combine all the data in both test and train folders, but skipping the data in the Inertia Signals folder.
+### Next the function creates a subset of the data containing the measurements on the mean and standard deviation for each measurement (the selectioni standard is decribed in detail in the Codebook), and generate a new tidy dataset with appropriate labeling in a txt format in the working directory.
